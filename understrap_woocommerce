@@ -1,0 +1,158 @@
+{
+  "sample": {
+    "themes": [
+      {
+        "location": "understrap",
+        "activate": true
+      }
+    ],
+    "mu_plugins": [
+      {
+        "location": "woocommerce",
+
+      }
+    ],
+    "plugins": [
+      {
+        "location": "woocommerce",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "amazon-s3-and-cloudfront",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "amazon-s3-and-cloudfront",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "akismet",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "jetpack",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "vaultpress",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "google-sitemap-generator",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "limit-login-attempts/reviews",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "all-in-one-seo-pack",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      },
+      {
+        "location": "better-wp-security",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      }, 
+      {
+        "location": "w3-total-cache",
+        "version": null,
+        "force": false,
+        "activate": true,
+        "activate_network": false
+      },        
+    ],
+    "options": [
+      "current_theme::understrap"
+    ],
+    "widgets": [
+      {
+        "name": "meta",
+        "location": "sidebar-1",
+        "position": 1,
+        "options": {
+          "title": "Site login or logout"
+        }
+      },
+      {
+        "name": "text",
+        "location": "sidebar-2",
+        "position": 4,
+        "options": {
+          "title": "Hello world.",
+          "text": "I'm a new widget."
+        }
+      }
+    ],
+    "menus": [
+      {
+        "name": "Example Menu",
+        "locations": [
+          "primary",
+          "social"
+        ],
+        "items": [
+          {
+            "type": "post",
+            "post_id": 2,
+            "options": {
+              "title": "Read the 'Sample Post'"
+            }
+          },
+          {
+            "type": "custom",
+            "title": "Our Partner Site",
+            "link": "//example.com/",
+            "options": {
+              "description": "Check out our partner's awesome website."
+            }
+          },
+          {
+            "type": "term",
+            "taxonomy": "category",
+            "term_id": 1,
+            "options": {
+              "title": "Example category"
+            }
+          }
+        ]
+      }
+    ],
+    "demo_content": [
+      "link::https://raw.githubusercontent.com/manovotny/wptest/master/wptest.xml",
+      "link::https://github.com/woocommerce/woocommerce/blob/master/sample-data/sample_products.xml"
+    ],
+    "defines": [
+      "WP_CACHE::false"
+    ]
+  }
+}
